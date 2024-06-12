@@ -27,10 +27,10 @@
                         @include('layouts.alert')
                     </div>
                 </div>
-                <h2 class="section-title">Permissions</h2>
+                {{-- <h2 class="section-title">Permissions</h2>
                 <p class="section-lead">
                     You can manage all Permissions, such as editing, deleting and more.
-                </p>
+                </p> --}}
 
 
                 <div class="row mt-4">
@@ -41,7 +41,7 @@
                             </div>
                             <div class="card-body">
 
-                                <div class="float-right">
+                                <div class="float-left">
                                     <form method="GET" action="{{ route('permissions.index') }}">
                                         <div class="input-group">
                                             <input type="text" class="form-control" placeholder="Search by name" name="name">

@@ -70,7 +70,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="card-footer text-right">
+                            <div class="card-footer text-left">
                                 <a href="{{ route('companies.edit', $company->id) }}" class="btn btn-primary">Edit Profil
                                     Perusahaan</a>
                             </div>

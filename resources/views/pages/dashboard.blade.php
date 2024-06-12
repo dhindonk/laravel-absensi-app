@@ -25,7 +25,7 @@
                                 <h4>Total Users</h4>
                             </div>
                             <div class="card-body">
-                                150
+                                {{ $userCount }}
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@
                                 <h4>Attendances</h4>
                             </div>
                             <div class="card-body">
-                                42
+                                {{ $attendanceCount }}
                             </div>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                                 <h4>Permission</h4>
                             </div>
                             <div class="card-body">
-                                1,201
+                                {{ $permissionCount }}
                             </div>
                         </div>
                     </div>

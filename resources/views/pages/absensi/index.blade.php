@@ -27,20 +27,23 @@
                         @include('layouts.alert')
                     </div> --}}
                 </div>
-                <h2 class="section-title">Attendances</h2>
+                {{-- <h2 class="section-title">Attendances</h2>
                 <p class="section-lead">
                     You can manage all Attendances, such as editing, deleting and more.
-                </p>
+                </p> --}}
 
                 <div class="row mt-4">
                     <div class="col-12">
                         <div class="card">
                             <div class="card-header">
-                                <h4>All Posts</h4>
+                                <h4>All Attendances</h4>
+                                <div class="card-header-action">
+                                    <a href="{{ route('export') }}" class="btn btn-success">Download Excel</a>
+                                </div>
                             </div>
                             <div class="card-body">
 
-                                <div class="float-right">
+                                <div class="float-left">
                                     <form method="GET" action="{{ route('attendances.index') }}">
                                         <div class="input-group">
                                             <input type="text" class="form-control" placeholder="Search by name" name="name">
@@ -56,7 +59,6 @@
                                 <div class="table-responsive">
                                     <table class="table-striped table">
                                         <tr>
-
                                             <th>Name</th>
                                             <th>Date</th>
                                             <th>Time In</th>

@@ -40,15 +40,15 @@ class DatabaseSeeder extends Seeder
             'name' => 'PT. DhinTech',
             'email' => 'official@dhintech.com',
             'address' => 'Jl. Jalan yuk',
-            'latitude' => '-6.6953321',
-            'longitude' => '106.8090916',
-            'radius_km' => '2.5',
+            'latitude' => '-6.5993931',
+            'longitude' => '106.8097919',
+            'radius_km' => '5',
             'time_in' => '08:00',
-            'time_out' => '23:50',
+            'time_out' => '17:00',
         ]);
 
         $this->call([
-            // AttendanceSeeder::class,
+            AttendanceSeeder::class,
             // PermissionSeeder::class,
         ]);
     }

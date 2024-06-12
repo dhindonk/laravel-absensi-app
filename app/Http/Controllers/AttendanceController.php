@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Attendance;
 use Illuminate\Http\Request;
+use Rap2hpoutre\FastExcel\FastExcel;
+use App\User;
 
 class AttendanceController extends Controller
 {
@@ -17,5 +19,12 @@ class AttendanceController extends Controller
                 });
             })->orderBy('id', 'desc')->paginate(10);
         return view('pages.absensi.index', compact('attendances'));
+    }
+
+    public function export()
+    {
+        print('Gass');
+        // $attendances = Attendance::all(); 
+        // return (new FastExcel($attendances))->download('attendance.xlsx');
     }
 }

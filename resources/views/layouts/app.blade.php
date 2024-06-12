@@ -7,6 +7,8 @@
         name="viewport">
     <title>@yield('title') &mdash; Attendify</title>
 
+    <link rel="shortcut icon" href="{{ asset('img/logo.png') }}" type="image/x-icon">
+    
     <!-- General CSS Files -->
     <link rel="stylesheet"
         href="{{ asset('library/bootstrap/dist/css/bootstrap.min.css') }}">

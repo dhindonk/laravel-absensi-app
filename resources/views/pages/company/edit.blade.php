@@ -85,7 +85,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card-footer text-right">
+                                <div class="card-footer text-left">
                                     <button type="submit" class="btn btn-primary">Simpan Perubahan</button>
                                 </div>
                             </form>
