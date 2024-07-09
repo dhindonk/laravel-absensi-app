@@ -9,10 +9,14 @@
 
 ## About Laravel
 
-git clone https://github.com/dhindonk/laravel-absensi-app.git
+git clone https://github.com/dhindonk/laravel-absensi-app.git 
+<br>
 composer install
+<br>
 cp .env.example .env
+<br>
 php artisan key:generate
+<br>
 php artisan migrate --seed
+<br>
 php artisan serve
- 
